@@ -1,0 +1,10 @@
+body{
+    background-color:rgb(94, 226, 94);
+}
+table{
+    height: 200px;
+    width: 800px;
+}
+tr{
+    text-align: center;
+}

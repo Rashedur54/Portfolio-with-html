@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Membership Form</title>
+</head>
+<body>
+    <h1 align="center" style="culor:rgb(175, 124, 58)">LETS BE BOKACHODA BY RASHED'S FRIENDS</h1>
+        <p align="center"><img src="image/download.jpg"></p>
+        <hr>
+
+    <h3>After submiting the form the form will directly go to the member of dada commity. So wait until their response.</h3>
+    <form>
+
+        <datalist id="names">
+            <option value="Rashedur Rahman">Rashedur Rahman</option>
+            <option value="Niloy">Niloy Ahmed</option>
+            <option value="Kamrul Hasan">Kamrul Hasan</option>
+        </datalist>
+        <p>User name  : <input type="text" list="names" placeholder="only latters and numbers" required pattern="[a-zA-Z0-9]+"></p><br>
+        <p>Password  : <input type="password" placeholder="Enter Password Please" ></p><br>
+        <p>Email  : <input type="email" placeholder="only latters and numbers" ></p><br>
+        <p>Religion: <input type="checkbox">Islam
+            <input type="checkbox">Hindu
+
+        </p>
+        <p>Gender: <input type="radio" name="gender">Male
+             <input type="radio" name="gender">Female
+             
+
+        </p>
+        <p>
+             Department :
+             <select>
+                <option selected>CSE</option>
+                <option>EEE</option>
+                <option>BBA</option>
+             </select>
+            
+        </p>
+        <p>
+            Feedback : <br>
+            <textarea>
+                
+            </textarea>
+         </p>
+         <p>
+           <a href="form2.html">sign up 
+            <input type="reset" value="clear"></a>
+         </p>
+    </form>
+    </body>
